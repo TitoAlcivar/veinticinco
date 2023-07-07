@@ -1,0 +1,15 @@
+.light {
+    border: 2px black solid;
+    background-color: rgb(238, 217, 217);
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.dark{
+    border: 10px white solid;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}

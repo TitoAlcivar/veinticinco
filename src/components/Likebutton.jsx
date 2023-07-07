@@ -6,23 +6,18 @@ export const Likebutton = () => {
 
     const handleClick = () => setCounter(prev => prev += 1);
 
-    // const setBg = () => {
-    //     const randomColor = Math.floor(Math.random() * 16777215).toString(16);
-    //     return '#' + randomColor
-    // }
-
-    const colours = ['purple', 'blue', 'green', 'yellow', 'orange', 'red']
-    const colors = () => {
-        colours[Math.floor(Math.random() * colours.length)]
-        console.log();
-        return colours
+    const setBg = () => {
+        const randomColor = Math.floor(Math.random() * 16777215).toString(16);
+        return '#' + randomColor
     }
+
+
 
 
 
     return (
         <>
-            <button style={{ backgroundColor: { colors } }} onClick={handleClick}> {counter} Likes</button>
+            <button style={{ backgroundColor: { setBg } }} onClick={handleClick}> {counter} Likes</button>
         </>
     );
 }
