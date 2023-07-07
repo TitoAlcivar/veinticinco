@@ -1,5 +1,6 @@
 import { ColorTheme } from "./components/ColorTheme";
 import { Likebutton } from "./components/Likebutton";
+import { PokeList } from "./components/PokeList";
 
 
 
@@ -10,6 +11,7 @@ function App() {
       <Likebutton />
       <Likebutton/>
       <ColorTheme/>
+      <PokeList/>
     </div>
   );
 }
