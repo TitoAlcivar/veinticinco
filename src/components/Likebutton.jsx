@@ -14,6 +14,7 @@ export const Likebutton = () => {
     const colours = ['purple', 'blue', 'green', 'yellow', 'orange', 'red']
     const colors = () => {
         colours[Math.floor(Math.random() * colours.length)]
+        console.log();
         return colours
     }
 
